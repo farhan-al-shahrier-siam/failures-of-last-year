@@ -46,3 +46,57 @@ header .banner-text button{
     font-size: 20px;
     font-weight: 600;
 }
+
+#mid-section{
+    margin-top: 131px;
+    display: flex;
+}
+
+.mid-section-container{
+    width: 67%;
+    max-width: 1072px;
+    margin: 0 auto;
+    
+}
+
+#mid-section .image-container{
+    position: relative;
+}
+
+.orange-background{
+    height: 530px;
+    width: 530px;
+    border-radius: 50%;
+    background-color: #efbfac9a;
+    position: absolute;
+    z-index: 1;
+    left: 20px;
+    top: 195px;
+}
+
+.person-image{
+    position: absolute;
+    z-index: 2;
+}
+.failure-content{
+    margin-top: 240px;
+    margin-left: 657px;
+
+}
+
+.failure-content h2{
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 24px;
+}
+
+.failure-content p, ul{
+    font-size: 16px;
+    color: #444343;
+    line-height: 26px;
+    margin-bottom: 16px;
+}
+
+.failure-content ul{
+    list-style: none;
+}
