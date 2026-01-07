@@ -100,3 +100,44 @@ header .banner-text button{
 .failure-content ul{
     list-style: none;
 }
+
+#my-plans{
+    margin-top: 215px;
+}
+
+.my-plans-container{
+    width: 71%;
+    max-width: 1141px;
+    margin: 0 auto;
+}
+
+.my-plans-container h1{
+    text-align: center;
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 56px;
+}
+
+.plans-card{
+    display: flex;
+    gap: 90px;
+}
+
+.card-info{
+    text-align: center;
+}
+
+.card-info img{
+    margin-bottom: 24px;
+}
+
+.card-info h2{
+    font-size: 24px;
+    color: #151414;
+    margin-bottom: 16px;
+}
+
+.card-info p{
+    font-size: 18px;
+    color: #737272;
+}
